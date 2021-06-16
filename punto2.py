@@ -1,4 +1,10 @@
-def nota(p1,p2,t,p):
+def nota():
+
+
+    p1 = float(input())
+    p2 = float(input())
+    t = float(input())
+    p = float(input())
 
     notafp1 = p1 * (25/100)
     notafp2 = p2 * (25/100)
@@ -9,4 +15,4 @@ def nota(p1,p2,t,p):
 
     print(notafinal)
 
-nota(5,3.5,5,4)
+nota()
